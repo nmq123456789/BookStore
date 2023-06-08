@@ -1,0 +1,37 @@
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hint-star {
+    color: gold;
+    font-size: 20px;
+}
+
+.information {
+    margin-bottom: 20px;
+}
+
+.control {
+    margin-top: 20px;
+}
+
+.shopping-cart {
+    margin-right: 5px;
+}
+
+.link-muted {
+    color: #aaa;
+}
+
+.link-muted:hover {
+    color: #1266f1;
+}
+
+.star-full {
+    color: darkorange;
+}
+
+.star-empty {
+    color: #b8bec3;
+}

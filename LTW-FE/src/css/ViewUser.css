@@ -1,0 +1,28 @@
+.underline-red {
+    position: relative;
+}
+
+.underline-red::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.2s ease-in-out;
+}
+
+.underline-redd{
+    border-bottom: 2px solid red;
+}
+
+.underline-red:hover::after,
+.underline-red:focus::after {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+
